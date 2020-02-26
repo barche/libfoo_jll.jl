@@ -1,0 +1,8 @@
+[[libfoo]]
+arch = "x86_64"
+git-tree-sha1 = "37e9420ad5369a10f5155d16e1cd409ef5182be3"
+os = "macos"
+
+    [[libfoo.download]]
+    sha256 = "6a0feec8eaa9f53dba40ba8ad218aa265e4ea425e3db7ad812d6420e85884c88"
+    url = "https://github.com/barche/libfoo_jll.jl/releases/download/libfoo-v5.13.2+0/libfoo.v5.13.2.x86_64-apple-darwin14.tar.gz"
