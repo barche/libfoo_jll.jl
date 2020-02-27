@@ -7,35 +7,6 @@ os = "macos"
     sha256 = "6a0feec8eaa9f53dba40ba8ad218aa265e4ea425e3db7ad812d6420e85884c88"
     url = "https://github.com/barche/libfoo_jll.jl/releases/download/libfoo-v5.13.2+0/libfoo.v5.13.2.x86_64-apple-darwin14.tar.gz"
 [[libfoo]]
-arch = "powerpc64le"
-git-tree-sha1 = "5708a23966e20da312b0067c96f2b9daa05eaebe"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[libfoo.download]]
-    sha256 = "2cf5973225acc4e4d3564eacdbea74ec5cca926eba8e310c8b5aae64a6d8ad44"
-    url = "https://github.com/barche/libfoo_jll.jl/releases/download/libfoo-v5.14.0+0/libfoo.v5.14.0.powerpc64le-linux-gnu-libgfortran3.tar.gz"
-[[libfoo]]
-arch = "armv7l"
-git-tree-sha1 = "222f47b8aba628bd8d8e5576919b193d75f8a96f"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[libfoo.download]]
-    sha256 = "0ccb4f4d15bdcc26c62c80c67c14a5ac3442262ddaea694f617687254aaa8b9a"
-    url = "https://github.com/barche/libfoo_jll.jl/releases/download/libfoo-v5.14.0+0/libfoo.v5.14.0.arm-linux-gnueabihf-libgfortran3.tar.gz"
-[[libfoo]]
-arch = "x86_64"
-git-tree-sha1 = "715036d80ee704a8b47eaf14339475b92d939a4d"
-libgfortran_version = "3.0.0"
-os = "macos"
-
-    [[libfoo.download]]
-    sha256 = "d04ee37ca8e510a244fb5d4bc8347fc73609a3ca3e3ca344016c3a4d5dc470ac"
-    url = "https://github.com/barche/libfoo_jll.jl/releases/download/libfoo-v5.14.0+0/libfoo.v5.14.0.x86_64-apple-darwin14-libgfortran3.tar.gz"
-[[libfoo]]
 arch = "x86_64"
 git-tree-sha1 = "ea71c058454fdf0fb0bd42dd8dd0be85d993aa2c"
 libc = "glibc"
@@ -46,21 +17,59 @@ os = "linux"
     sha256 = "f46d555c8ad463ff5ec133527df86cd8468d46268d41ad4e30b12a73b62fa142"
     url = "https://github.com/barche/libfoo_jll.jl/releases/download/libfoo-v5.14.0+0/libfoo.v5.14.0.x86_64-linux-gnu-libgfortran3.tar.gz"
 [[libfoo]]
-arch = "aarch64"
-git-tree-sha1 = "332f31cca55b79db3eb87c142e5ac1cd680ffadd"
+arch = "powerpc64le"
+git-tree-sha1 = "d31e3634c1b9be9ae01052839ff471e6ed2e508f"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[libfoo.download]]
-    sha256 = "a24a974ff428ad71badbb05f590d024e7e49eb63d03d3ca9c127a763fc3761e8"
-    url = "https://github.com/barche/libfoo_jll.jl/releases/download/libfoo-v5.14.0+0/libfoo.v5.14.0.aarch64-linux-gnu-libgfortran3.tar.gz"
+    sha256 = "4ecbe78e2563964d11425a2beade2e3114b8456c584a7b259dc13e8b034979df"
+    url = "https://github.com/barche/libfoo_jll.jl/releases/download/libfoo-v5.15.0+0/libfoo.v5.15.0.powerpc64le-linux-gnu-libgfortran3.tar.gz"
+[[libfoo]]
+arch = "armv7l"
+git-tree-sha1 = "a662ded1f35a6254b68d8d78cf3f91a0048b5ffd"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[libfoo.download]]
+    sha256 = "20794f885d9d9638487b92eaf725229c2adaf9fd636080d845c5f3b72bdd528a"
+    url = "https://github.com/barche/libfoo_jll.jl/releases/download/libfoo-v5.15.0+0/libfoo.v5.15.0.arm-linux-gnueabihf-libgfortran3.tar.gz"
+[[libfoo]]
+arch = "x86_64"
+git-tree-sha1 = "dd0d933dda54f14c21dd69957988b298b3c3c5e2"
+libgfortran_version = "3.0.0"
+os = "macos"
+
+    [[libfoo.download]]
+    sha256 = "e64d72aa25b05e42917ee4912f335de54ef7bba585317b9f1579182388ca0933"
+    url = "https://github.com/barche/libfoo_jll.jl/releases/download/libfoo-v5.15.0+0/libfoo.v5.15.0.x86_64-apple-darwin14-libgfortran3.tar.gz"
+[[libfoo]]
+arch = "aarch64"
+git-tree-sha1 = "d46d00b9349118bf2287dcd15a0d65027ccfc8ae"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[libfoo.download]]
+    sha256 = "ff0f6971ae768ba69509fe6b78b5b0a52f79dde4675ba9fef404f71ae901e6db"
+    url = "https://github.com/barche/libfoo_jll.jl/releases/download/libfoo-v5.15.0+0/libfoo.v5.15.0.aarch64-linux-gnu-libgfortran3.tar.gz"
 [[libfoo]]
 arch = "i686"
-git-tree-sha1 = "14d87767b15abefd303fea35ed3597b8a36f869f"
+git-tree-sha1 = "4717d04029545122494b837bd7a129390ac5ded5"
 libgfortran_version = "3.0.0"
 os = "windows"
 
     [[libfoo.download]]
-    sha256 = "00fd066610cdbb4d3ad04bfa3a2240dbf9bbae3323cf7f8105dc70182a71725d"
-    url = "https://github.com/barche/libfoo_jll.jl/releases/download/libfoo-v5.14.0+0/libfoo.v5.14.0.i686-w64-mingw32-libgfortran3.tar.gz"
+    sha256 = "5cfb3883dac16b73af9245dc88424463694a3fbb0079e9d42db10a495ef99b79"
+    url = "https://github.com/barche/libfoo_jll.jl/releases/download/libfoo-v5.15.0+0/libfoo.v5.15.0.i686-w64-mingw32-libgfortran3.tar.gz"
+[[libfoo]]
+arch = "x86_64"
+git-tree-sha1 = "1a3a929050bbaa56a4aee2afcbc71d36c317717b"
+libc = "glibc"
+os = "linux"
+
+    [[libfoo.download]]
+    sha256 = "d4b09e4d59c37f4d364be48e7b47eee17f80ca866044dacde7aebfef57041698"
+    url = "https://github.com/barche/libfoo_jll.jl/releases/download/libfoo-v5.15.0+0/libfoo.v5.15.0.x86_64-linux-gnu.tar.gz"
